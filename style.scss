@@ -46,6 +46,11 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 44px;
+    &:hover {
+        border-radius: 30px;
+        background: #EB443F;
+        cursor: pointer;
+    }
 }
 
 .bottom {
@@ -71,6 +76,11 @@
 
 .item-box__img {
     border-radius: 16px;
+    &:hover {
+        border-radius: 16px;
+        border: 3px solid #44D2FF;
+        cursor: pointer;
+    }
 }
 
 .item-box__text {
