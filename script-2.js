@@ -1,3 +1,5 @@
+// Homework 2.3
+
 // Задание 1
 let password = 'пароль';
 let userInput = prompt('Введите пароль');
