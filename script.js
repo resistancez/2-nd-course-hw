@@ -46,3 +46,4 @@ alert(user[info]);
 let nameUser = prompt("Как Вас зовут?"); // Задание 10
 alert(`Привет, ${nameUser}!`);
 
+
