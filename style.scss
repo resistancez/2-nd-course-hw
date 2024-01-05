@@ -32,6 +32,8 @@
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
+    margin-top: 32px;
+    width: 481px;
 }
 
 .header__button {
@@ -46,6 +48,11 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 44px;
+    &:hover {
+        border-radius: 30px;
+        background: #EB443F;
+        cursor: pointer;
+    }
 }
 
 .bottom {
@@ -53,7 +60,6 @@
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
-    height: 556px;
 }
 
 .item-box {
@@ -62,6 +68,7 @@
     justify-content: center;
     gap: 32px;
     padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .item-box__item {
@@ -71,6 +78,11 @@
 
 .item-box__img {
     border-radius: 16px;
+    &:hover {
+        border-radius: 16px;
+        border: 3px solid #44D2FF;
+        cursor: pointer;
+    }
 }
 
 .item-box__text {
@@ -84,3 +96,5 @@
     line-height: 32px;
     text-decoration: none;
 }
+
+@import 'mobile';
