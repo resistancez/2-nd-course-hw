@@ -9,19 +9,19 @@ for (let i = 0; i < arr.length; i++) {
 
 // Задание 2
 const arr1 = [1, 5, 4, 10, 0, 3];
-console.log(arr.indexOf(4));
+console.log(arr1.indexOf(4));
 
 // Задание 2: Вариант 2
 const arr2 = [1, 5, 4, 10, 0, 3];
 let res;
-arr.forEach((el, i) => {
+arr2.forEach((el, i) => {
     if (el === 4) res = i;
 })
 console.log(res);
 
 // Задание 3
 const arr3 = [1, 3, 5, 10, 20];
-console.log(arr.join(' '));
+console.log(arr3.join(' '));
 
 // Задание 4
 const arr4 = [];
@@ -30,18 +30,18 @@ for (i = 0; i < 3; i++) {
     for (k = 0; k < 3; k++) {
         nestArr.push(1);
     }
-    arr.push(nestArr);
+    arr4.push(nestArr);
 }
-console.log(arr);
+console.log(arr4);
 
 // Задание 5
 const arr5 = [1, 1, 1];
-arr.push(2, 2, 2);
-console.log(arr);
+arr5.push(2, 2, 2);
+console.log(arr5);
 
 // Задание 6
 const arr6 = [9, 8, 7, 'a', 6, 5];
-const result = arr.filter((el) => typeof el === 'number');
+const result = arr6.filter((el) => typeof el === 'number');
 let arrNumbs = result.sort();
 console.log(arrNumbs);
 
@@ -51,7 +51,7 @@ let userAnswer = Number(prompt('Угадайте число'));
 console.log(userAnswer);
 if (isNaN(userAnswer)) {
     console.log('nan')
-} else if (arr.includes(userAnswer)) {
+} else if (arr7.includes(userAnswer)) {
     alert('Угадал');
 } else {
     alert('Не угадал');
@@ -64,7 +64,7 @@ console.log(reverseStr);
 
 // Задание 9
 const arr9 = [[1, 2, 3,], [4, 5, 6]];
-const flatArr = arr.flat();
+const flatArr = arr9.flat();
 console.log(flatArr);
 
 // Задание 10
@@ -90,15 +90,15 @@ let result11 = [9, 8, 7, 6, 5];
 function powArr(nums) {
     return nums.map(num => num ** 2);
 }
-console.log(powArr(result));
+console.log(powArr(result11));
 
 // Задание 12
 function stringLength(arr) {
-    const result = [];
+    const result1 = [];
     for (let i = 0; i < arr.length; i++) {
-        result.push(arr[i].length);
+        result1.push(arr[i].length);
     }
-    console.log(result);
+    console.log(result1);
 }
 stringLength(['space', 'sun', 'quazar']);
 
@@ -119,7 +119,7 @@ console.log(filterPositive([-25, 25, 0, -1000, -2]));
 
 function filterPositive(array) {
     const negativeNumbers = array.filter(item => item < 0);
-    console.log(negativeNumbers2);
+    console.log(negativeNumbers);
 }
 filterPositive()
 const currentDate = new Date();
