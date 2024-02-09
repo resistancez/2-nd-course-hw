@@ -21,20 +21,42 @@
             <button class="header__button">Поехали!</button>
         </header>
     </div>
+    <section class="section center">
+        <div class="item-box">
+            <div class="item-box__item">
+                <img class="item-box__img" src="img/game1.jpg" alt="Игра 1">
+                <a class="item-box__text" href="#">Игра 1</a>
+            </div>
+            <div class="item-box__item">
+                <img class="item-box__img" src="img/game2.jpg" alt="Игра 2">
+                <a class="item-box__text" href="#">Игра 2</a>
+            </div>
+            <div class="item-box__item">
+                <img class="item-box__img" src="img/game3.jpg" alt="Игра 3">
+                <a class="item-box__text" href="#">Игра 3</a>
+            </div>
+        </div>
+    </section>
     <div class="bottom center">
         <footer class="footer">
-            <div class="item-box center">
-                <div class="item-box__item">
-                    <img class="item-box__img" src="img/game1.jpg" alt="Игра 1" onclick="seasons();">
-                    <a class="item-box__text" href="#">Игра 1</a>
+            <div class="play-item">
+                <div class="play-item__description">
+                    <p class="play-item__description_text">Времена года!</p>
+                    <p class="play-item__description_smallertext">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы <br> узнаете к какому времени года он относится</p>
+                    <button class="bottom__button" onclick="seasons();">Играть!</button>
                 </div>
-                <div class="item-box__item">
-                    <img class="item-box__img" src="img/game2.jpg" alt="Игра 2" onclick="rememberWords()">
-                    <a class="item-box__text" href="#">Игра 2</a>
+                <div class="play-item_box">
+                    <img class="play-item__img" src="img/playitem.png" alt="Времена года">
                 </div>
-                <div class="item-box__item">
-                    <img class="item-box__img" src="img/game3.jpg" alt="Игра 3">
-                    <a class="item-box__text" href="#">Игра 3</a>
+            </div>
+            <div class="play-item">
+                <div class="play-item_box">
+                    <img class="play-item__img" src="img/playitem2.png" alt="Запомни слова">
+                </div>
+                <div class="play-item__description">
+                    <p class="play-item__description_text">Запомни слова</p>
+                    <p class="play-item__description_smallertext">При нажатии на кнопку играть, вы увидите несколько слов, <br> которые вам необходимо запомнить.</p>
+                    <button class="bottom__button" onclick="rememberWords()">Играть!</button>
                 </div>
             </div>
         </footer>
